@@ -1,5 +1,6 @@
 {
   "name": "quiz-me",
+  "homepage": "https://AbhishekTomr.github.io/quiz-me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +12,6 @@
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-scripts": "5.0.0",
-    "homepage": "https://AbhishekTomr.github.io/quiz-me",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -4,6 +4,7 @@ import Button from '../UI/Button/Button'
 import Input from '../UI/Input/Input';
 import {useDispatch} from 'react-redux';
 import UserActions from '../../store/userslice'
+import React from 'react';
 
 let returnOp=(a,b,opr)=>{
     switch(opr)
@@ -92,7 +93,7 @@ let Question = (props) => {
                 {isCorrect && <p className={styles.correctAns}>Correct Answer !</p>}
                 {isIncorrect && <p className={styles.wrongAns}>Wrong Answer, Correct Answer is {ans}</p>}
                 </div>
-                <div id='btn'>
+                <div className={styles["btn-wrap"]}>
                 <Button data={{id:'checkAns',className:styles.btn,onClick:()=>{checkAnswer(false)}}}>Submit Answer</Button>
                 {!isFinal && <Button data={{id:'nextQues',className:styles.btn,ref:next,onClick:()=>{checkAnswer(true)}}}>Next Question</Button>}
                 {isFinal && <Button data={{id:'finishQues',className:styles.btn,ref:finish,onClick:()=>{checkAnswer(true)}}}>Finish Quiz</Button>}

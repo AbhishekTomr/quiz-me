@@ -1,6 +1,6 @@
 import './App.css';
 import QuizWindow from './components/QuizWindow/QuizWindow';
-import Header from './components/UI/Input/Header/Header';
+import Header from './components/UI/Header/Header';
 import store from "../src/store/store"
 import {Provider} from 'react-redux';
 

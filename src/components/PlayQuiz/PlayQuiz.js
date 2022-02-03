@@ -2,6 +2,7 @@ import styles from './PlayQuiz.module.css'
 import Question from "../Questions/Questions"
 import {useSelector} from 'react-redux';
 import {useState} from 'react';
+import React from 'react';
 
 let PlayQuiz = (props) => {
     let data = useSelector((state)=>state.userInfo[props.currentPlayer-1]);

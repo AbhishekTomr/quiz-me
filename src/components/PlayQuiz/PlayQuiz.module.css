@@ -18,7 +18,7 @@
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    width: 60%;
+    width: 90%;
 }
 .op,.opr{
     height: 50px;
@@ -37,6 +37,12 @@
     outline: black;
     padding-left: 10px;
     padding-top: 10px;
+}
+.btn-wrap{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn{
     height: 50px;
@@ -81,7 +87,7 @@
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     .questionNo{
         font-size: 1rem;
     }
@@ -95,7 +101,6 @@
     }
     .btn{
         height: 30px;
-        width: auto;
         font-size: 1rem;
         margin-bottom: 10px;
     }

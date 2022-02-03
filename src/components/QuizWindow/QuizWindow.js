@@ -3,6 +3,7 @@ import StartQuiz from '../StartQuiz/StartQuiz'
 import PlayQuiz from '../PlayQuiz/PlayQuiz'
 import EndQuiz from '../EndQuiz/EndQuiz'
 import { useState } from 'react'
+import React from 'react';
 let QuizWindow = () =>{
     let [quizState,changeQuizState] = useState(0);
     let [currentPlayer,changePlayer] = useState(null);

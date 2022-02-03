@@ -4,6 +4,7 @@ import Input from '../UI/Input/Input'
 import {useDispatch, useSelector} from 'react-redux';
 import { useState } from 'react';
 import UserActions from '../../store/userslice'
+import React from 'react';
 
 let StartQuiz = (props) =>{ 
     let dispatchFn = useDispatch();

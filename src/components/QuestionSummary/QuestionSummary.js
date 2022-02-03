@@ -1,4 +1,5 @@
 import styles from "./QuestionSummary.module.css";
+import React from 'react';
 
 let returnOp=(a,b,opr)=>{
     switch(opr)

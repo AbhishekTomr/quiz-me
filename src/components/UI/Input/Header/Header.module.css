@@ -1,0 +1,19 @@
+.head{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+}
+h1{
+    margin-left: 20px;
+    font-size: 3em;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    letter-spacing: .5px;
+}

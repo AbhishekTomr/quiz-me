@@ -1,0 +1,112 @@
+.game-panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.questionNo{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.question{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.op,.opr{
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.opr{
+    width: 100px;
+    height: 50px;
+    outline: black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.btn{
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+    background-color: #D06550;
+    color: white;
+    border-radius: 5px;    
+    cursor:pointer;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.correct{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.correctAns{
+    color: green;
+}
+.wrongAns {
+    color: tomato;
+}
+.status,.uname{
+    display: flex;
+    width: 90%;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+}
+.uname{
+    justify-content: center;
+}
+
+
+@media screen and (max-width:800px) {
+    .questionNo{
+        font-size: 1rem;
+    }
+    .question{
+        width: 90%;
+    }
+    .op,.opr{
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+    }
+    .btn{
+        height: 30px;
+        width: auto;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .status{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .correct{
+        font-size: 1rem;
+    }
+    
+}

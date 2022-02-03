@@ -1,0 +1,22 @@
+.QuizWindow{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.start-screen{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-origin: border-box;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+@media screen and (max-width:800px) {
+    .QuizWindow{
+        width: 90vw;
+        margin: 5px auto;
+    }
+}
